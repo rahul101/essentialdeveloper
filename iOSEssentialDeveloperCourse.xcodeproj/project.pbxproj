@@ -16,6 +16,10 @@
 		C2E9E6BF29DC017C00A991DC /* iOSEssentialDeveloperCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E6BE29DC017C00A991DC /* iOSEssentialDeveloperCourseTests.swift */; };
 		C2E9E6C929DC017C00A991DC /* iOSEssentialDeveloperCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E6C829DC017C00A991DC /* iOSEssentialDeveloperCourseUITests.swift */; };
 		C2E9E6CB29DC017C00A991DC /* iOSEssentialDeveloperCourseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E6CA29DC017C00A991DC /* iOSEssentialDeveloperCourseUITestsLaunchTests.swift */; };
+		C2E9E6D829DC4A1500A991DC /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E6D729DC4A1500A991DC /* RemoteFeedLoader.swift */; };
+		C2E9E6DA29DC4A2E00A991DC /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E6D929DC4A2E00A991DC /* LocalFeedLoader.swift */; };
+		C2E9E6DC29DC4A4800A991DC /* RemoteWithLocalFallbackLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E6DB29DC4A4800A991DC /* RemoteWithLocalFallbackLoader.swift */; };
+		C2E9E6DE29DC4ADF00A991DC /* FeedLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E6DD29DC4ADF00A991DC /* FeedLoadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		C2E9E6C429DC017C00A991DC /* iOSEssentialDeveloperCourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSEssentialDeveloperCourseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E9E6C829DC017C00A991DC /* iOSEssentialDeveloperCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSEssentialDeveloperCourseUITests.swift; sourceTree = "<group>"; };
 		C2E9E6CA29DC017C00A991DC /* iOSEssentialDeveloperCourseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSEssentialDeveloperCourseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2E9E6D729DC4A1500A991DC /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		C2E9E6D929DC4A2E00A991DC /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
+		C2E9E6DB29DC4A4800A991DC /* RemoteWithLocalFallbackLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackLoader.swift; sourceTree = "<group>"; };
+		C2E9E6DD29DC4ADF00A991DC /* FeedLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				C2E9E6A729DC017B00A991DC /* AppDelegate.swift */,
 				C2E9E6A929DC017B00A991DC /* SceneDelegate.swift */,
 				C2E9E6AB29DC017B00A991DC /* ViewController.swift */,
+				C2E9E6DD29DC4ADF00A991DC /* FeedLoadViewController.swift */,
+				C2E9E6D729DC4A1500A991DC /* RemoteFeedLoader.swift */,
+				C2E9E6D929DC4A2E00A991DC /* LocalFeedLoader.swift */,
+				C2E9E6DB29DC4A4800A991DC /* RemoteWithLocalFallbackLoader.swift */,
 				C2E9E6AD29DC017B00A991DC /* Main.storyboard */,
 				C2E9E6B029DC017C00A991DC /* Assets.xcassets */,
 				C2E9E6B229DC017C00A991DC /* LaunchScreen.storyboard */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E9E6D829DC4A1500A991DC /* RemoteFeedLoader.swift in Sources */,
 				C2E9E6AC29DC017B00A991DC /* ViewController.swift in Sources */,
 				C2E9E6A829DC017B00A991DC /* AppDelegate.swift in Sources */,
 				C2E9E6AA29DC017B00A991DC /* SceneDelegate.swift in Sources */,
+				C2E9E6DE29DC4ADF00A991DC /* FeedLoadViewController.swift in Sources */,
+				C2E9E6DC29DC4A4800A991DC /* RemoteWithLocalFallbackLoader.swift in Sources */,
+				C2E9E6DA29DC4A2E00A991DC /* LocalFeedLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
